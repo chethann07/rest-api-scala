@@ -1,0 +1,11 @@
+# Routes
+GET         /get                          controllers.DatasetController.getAllDatasets
+
+GET         /get/:id                      controllers.DatasetController.getDatasetById(id: String)
+
+POST        /create                       controllers.DatasetController.createDataset
+
+PUT         /update/:id                   controllers.DatasetController.updateDataset(id: String)
+
+DELETE      /delete/:id                   controllers.DatasetController.deleteDatasetById(id: String)
+

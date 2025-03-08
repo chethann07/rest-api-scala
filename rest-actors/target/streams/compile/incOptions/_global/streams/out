@@ -1,0 +1,50 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/chethan/Downloads/project/akka-projects/rest-api-scala/rest-actors/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$ResponseBody.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetAllDatasets.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetDatasetById.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetAllDatasets$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetDatasetById$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$DeleteDatasetById$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$UpdateDataset$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$ResponseBody$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$CreateDataset$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$UpdateDataset.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$CreateDataset.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$DeleteDatasetById.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$ResponseBody.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetAllDatasets.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetDatasetById.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetAllDatasets$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetDatasetById$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$DeleteDatasetById$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$UpdateDataset$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$ResponseBody$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$CreateDataset$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$UpdateDataset.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$CreateDataset.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$DeleteDatasetById.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$ResponseBody.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetAllDatasets.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetDatasetById.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetAllDatasets$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$GetDatasetById$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$Command.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$DeleteDatasetById$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$UpdateDataset$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$ResponseBody$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$CreateDataset$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$UpdateDataset.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$CreateDataset.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$DeleteDatasetById.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatasetActor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/chethan/Downloads/project/akka-projects/rest-api-scala/rest-actors/target/scala-2.13/classes.bak[0m

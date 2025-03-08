@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-api-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-api-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-actors/rest-api-scala.rest-actors.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-actors/rest-api-scala.rest-actors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-api-scala.rest-api-scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-api-scala.rest-api-scala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-common/rest-api-scala.rest-common.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-common/rest-api-scala.rest-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-service/rest-api-scala.rest-service.iml" filepath="$PROJECT_DIR$/.idea/modules/rest-api-scala/rest-service/rest-api-scala.rest-service.iml" />
+    </modules>
+  </component>
+</project>
