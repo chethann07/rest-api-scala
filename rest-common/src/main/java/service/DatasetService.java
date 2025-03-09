@@ -64,6 +64,9 @@ public class DatasetService {
             entityManager.getTransaction().begin();
         }
         Datasets dataset = entityManager.find(Datasets.class, id);
+        if(dataset == null){
+            throw new NullPointerException("Dataset with id " + id + " not found");
+        }
         entityManager.remove(dataset);
         entityManager.getTransaction().commit();
     }
