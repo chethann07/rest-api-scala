@@ -25,7 +25,9 @@ class DatasetController @Inject() (cc: ControllerComponents, datasetService: Dat
 
   private def processRequest(operation: String, request: JsObject = Json.obj()): Future[Result] =
     datasetActor.ask(replyTo => ProcessRequest(operation, request, replyTo)).map {
-      case ResponseBody(responseBody) => Ok(Json.toJson(responseBody))
+      case ResponseBody(responseBody) =>
+        val statusCode: Int = (responseBody \ "responseCode").asOpt[Int].getOrElse(200)
+        Status(statusCode)(Json.toJson(responseBody))
     }.recover {
       case ex => InternalServerError(Json.obj("error" -> s"Error: ${ex.getMessage}"))
     }

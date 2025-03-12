@@ -76,7 +76,7 @@
       }
       catch {
         case ex: NullPointerException =>
-        Utils.responseBody("api.error", "failure", ex.getMessage, 400, Seq.empty)
+        Utils.responseBody("api.error", "failure", ex.getMessage, 404, Seq.empty)
         case ex: Exception =>
         Utils.responseBody("api.error", "failure", ex.getMessage, 500, Seq.empty)
       }
@@ -106,7 +106,7 @@
         Utils.responseBody("api.update", "success", null, 200, Seq(results))
       }catch {
         case ex: NullPointerException =>
-          Utils.responseBody("api.error", "failure", ex.getMessage, 400, Seq.empty)
+          Utils.responseBody("api.error", "failure", ex.getMessage, 404, Seq.empty)
         case ex: Exception =>
           Utils.responseBody("api.error", "failure", ex.getMessage, 500, Seq.empty)
       }
@@ -121,7 +121,7 @@
       }
       catch {
         case ex: NullPointerException =>
-          Utils.responseBody("api.error", "failure", ex.getMessage, 400, Seq.empty)
+          Utils.responseBody("api.error", "failure", ex.getMessage, 404, Seq.empty)
         case ex: Exception =>
           Utils.responseBody("api.error", "failure", ex.getMessage, 500, Seq.empty)
       }
