@@ -1,1 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/chethan/Downloads/project/akka-projects/rest-api-scala/rest-common/src/main/java/service/DatasetService.java:6:23: extraneous semicolon[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chethan/Downloads/project/akka-projects/rest-api-scala/rest-common/src/main/java/model/Datasets.java:20:44: illegal start of type[0m
+[0m[[0m[31merror[0m] [0m[0m    private Map<String, Object> dataSchema;/home/chethan/Downloads/project/knowledge-platform[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/chethan/Downloads/project/akka-projects/rest-api-scala/rest-common/src/main/java/model/Datasets.java:24:44: identifier expected but `;` found.[0m
+[0m[[0m[31merror[0m] [0m[0m    private Map<String, Object> routeConfig;[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

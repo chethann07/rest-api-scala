@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/chethan/Downloads/project/akka-projects/rest-api-scala/rest-actors/src/main/scala/actors/DatasetActor.scala:56:65: not found: value json[0m
-[0m[[0m[31merror[0m] [0m[0m        val responseBody: JsObject = Utils.convertJsonToDataset(json)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/chethan/Downloads/project/akka-projects/rest-api-scala/rest-actors/src/main/scala/actors/DatasetActor.scala:31:7: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: DeleteDatasetById(_, _), UpdateDataset(_, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      msg match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

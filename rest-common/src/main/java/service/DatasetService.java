@@ -44,7 +44,7 @@ public class DatasetService {
         if(!entityManager.getTransaction().isActive()){
             entityManager.getTransaction().begin();
         }
-        if(getDatasetById(dataset.getId()) != null){
+        if(entityManager.find(Datasets.class, dataset.getId()) != null){
             throw new IllegalArgumentException("Dataset with id " + dataset.getId() + " already exists");
         }
         entityManager.persist(dataset);

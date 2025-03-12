@@ -5,7 +5,7 @@ GET         /get/:id                      controllers.DatasetController.getDatas
 
 POST        /create                       controllers.DatasetController.createDataset
 
-PUT         /update/:id                   controllers.DatasetController.updateDataset(id: String)
+PUT         /update                   controllers.DatasetController.updateDataset
 
 DELETE      /delete/:id                   controllers.DatasetController.deleteDatasetById(id: String)
 
