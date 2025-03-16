@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="rest-api-scala,rest-api-scala.rest-actors,rest-api-scala.rest-common,rest-api-scala_3677" />
-    <profile name="sbt 2" modules="rest-api-scala.rest-service">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="rest-api-scala,rest-api-scala.main,rest-api-scala.rest-actors,rest-api-scala.rest-actors.main,rest-api-scala.rest-actors.test,rest-api-scala.rest-common,rest-api-scala.rest-common.main,rest-api-scala.rest-common.test,rest-api-scala.rest-service,rest-api-scala.test,rest-api-scala_3677" />
+    <profile name="sbt 2" modules="rest-api-scala.rest-service.main,rest-api-scala.rest-service.test">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <parameters>

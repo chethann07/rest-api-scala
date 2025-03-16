@@ -1,3 +1,4 @@
-[warn] scala-library-2.13.14-sources.jar no longer exists at /home/chethan/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14-sources.jar
+[warn] scala-library-2.13.14-sources.jar no longer exists at \home\chethan\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.14\scala-library-2.13.14-sources.jar
 [debug] not up to date. inChanged = false, force = false
-[debug] Updating ProjectRef(uri("file:/home/chethan/Downloads/project/akka-projects/rest-api-scala/"), "restCommon")...
+[debug] Updating ProjectRef(uri("file:/C:/Users/gchet/Downloads/projects/akka-projects/rest-api-scala/"), "restCommon")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/gchet/Downloads/projects/akka-projects/rest-api-scala/"), "restCommon")

@@ -1,4 +1,7 @@
-[warn] scala-library-2.13.14.jar no longer exists at /home/chethan/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.jar
-[debug] not up to date. inChanged = false, force = false
-[debug] Updating restCommon...
-[debug] Done updating restCommon
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating restCommon...[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating rest-common_2.13[0m
+[0m[[0m[0minfo[0m] [0m[0mResolved rest-common_2.13 dependencies[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of rest-common_2.13[0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of rest-common_2.13[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating restCommon[0m

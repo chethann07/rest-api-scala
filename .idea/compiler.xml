@@ -2,7 +2,9 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="rest-api-scala.rest-service" options="-encoding utf8 -g" />
+      <module name="rest-api-scala.rest-service" options="" />
+      <module name="rest-api-scala.rest-service.main" options="-encoding utf8 -g" />
+      <module name="rest-api-scala.rest-service.test" options="-encoding utf8 -g" />
     </option>
   </component>
 </project>
